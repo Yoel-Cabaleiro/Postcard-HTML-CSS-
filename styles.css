@@ -1,0 +1,78 @@
+body {
+	background: black;
+}
+
+.postcard {
+	background-color: white;
+	background-image: url("https://img.pixers.pics/pho(s3:400/FO/21/48/72/48/8/400_FO214872488_68fe7f376bb8c2633086386731ab708b,400,300,jpg)/fundas-de-edredon-tinta-acuarela-paisaje-montana-niebla-oriental-tradicional-asia-arte-style-isolated-sobre-un-fondo-blanco.jpg.jpg");
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+/*HEADER*/
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+.postcard-header h1 {
+	width: 350px;
+	margin-top: 5px;
+	margin-left: 5px;
+	font-family: cursive;
+}
+
+/*BODY*/
+.postcard-body {
+	display: flex;
+}
+.body-left {
+	width: 200px;
+	height: 150px;
+	padding: 1%;
+	font-family: "Qwitcher Grypen";
+	font-size: 14pt;
+}
+.body-left p:first-child {
+	margin-top: 0%;
+}
+.body-left p {
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.body-right {
+	width: 200px;
+	padding: 1%;
+}
+.body-right input {
+	background: transparent;
+	color: gray;
+	font-size: 24px;
+	width: 190px;
+	border: none;
+	border-bottom: 1px solid gray;
+}
+.body-right input:hover {
+	border: none;
+	border-bottom: 2px solid gray;
+}
+
+/*FOOTER*/
+.postcard-footer {
+	text-align: center;
+}
+.postcard-footer button {
+	background-color: rgb(149, 137, 175);
+	padding: 2%;
+	font-family: cursive;
+	margin-top: 20px;
+}
+.postcard-footer button:hover {
+	background-color: rgb(94, 68, 105);
+}
