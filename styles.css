@@ -60,7 +60,7 @@ body {
 }
 .body-right input:hover {
 	border: none;
-	border-bottom: 2px solid gray;
+  	border-bottom: 1px solid black;
 }
 
 /*FOOTER*/
