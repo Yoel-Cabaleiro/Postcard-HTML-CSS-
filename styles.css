@@ -61,6 +61,8 @@ body {
 .body-right input:hover {
 	border: none;
   	border-bottom: 1px solid black;
+  	font-style: italic;
+  
 }
 
 /*FOOTER*/
